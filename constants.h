@@ -35,7 +35,13 @@ public:
     static string memInfoPath(){
         return "meminfo";
     }
+    static string cpuInfoPath(){
+        return "cpuinfo";
+    }
     static string versionPath(){
         return "version";
+    }
+    static string osNamePath(){
+        return "/etc/os-release";
     }
 };
